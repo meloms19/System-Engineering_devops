@@ -1,0 +1,39 @@
+2023-02-22 00:14:15.777 [info] 
+
+
+
+
+2023-02-22 00:14:16.016 [info] Extension host agent started.
+2023-02-22 00:14:17.372 [info] [127.0.0.1][2942d4e5][ExtensionHostConnection] New connection established.
+2023-02-22 00:14:17.374 [info] [127.0.0.1][6f324535][ManagementConnection] New connection established.
+2023-02-22 00:14:17.381 [info] [127.0.0.1][2942d4e5][ExtensionHostConnection] <55443> Launched Extension Host Process.
+2023-02-22 00:14:21.951 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-22 00:14:28.183 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
+    at S.updateIcon (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
+    at Object.call (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at r.s (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at r.q (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at invoke (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
+    at c.fire (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
+    at process.F (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-02-22 00:14:28.210 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
+    at S.updateTitle (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at r.s (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at r.q (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at invoke (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
+    at c.fire (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
+    at process.F (/home/vagrant/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-02-22 00:19:16.051 [info] New EH opened, aborting shutdown
